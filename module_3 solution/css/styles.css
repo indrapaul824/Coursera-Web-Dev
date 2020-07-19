@@ -1,0 +1,115 @@
+body {
+    font-size: 16px;
+    font-family: Oxygen, sans-serif;
+    color: #fff;
+    background-color: indigo;
+    
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: brown;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fce29e;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: yellow;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 2.2em;
+    margin: 15px 0 10px;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#nav-list {
+    background-color: #e4af34;
+}
+
+#nav-list a {
+    /*text-align: center;*/
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: #fff;
+    background-color: indigo;
+    opacity: .8;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1.6px solid yellow;
+}
+button.navbar-toggle {
+	transition-duration: 0.4s;
+}
+.navbar-header button.navbar-toggle:hover {
+	background-color: indigo;
+	color: 
+}
+
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: yellow;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: brown;
+    margin-bottom: 60px;
+    box-shadow: 0 0 40px #18580b;
+}
+
+.top-heading {
+	color: yellow;
+}
+
+
+/** END HOME PAGE **/
